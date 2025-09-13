@@ -1,9 +1,0 @@
-.headerstuff{
-  @apply hover:text-[#57B9FF] text-sm text-gray-700 font-medium cursor-pointer
-}
-
-.button{
-  @apply  border  w-24 rounded-2xl  hover:bg-[#57B9FF]
-}
-
-
