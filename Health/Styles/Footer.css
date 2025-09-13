@@ -1,0 +1,33 @@
+.footer-stuff{
+  @apply  flex flex-col text-black  gap-2
+}
+
+.footer-background{
+  @apply relative flex flex-col items-center bg-gradient-to-b from-[#57B9FF] to-[#517891] overflow-hidden py-12 px-4 md:px-16
+}
+
+.footer-text{
+  @apply text-2xl text-black font-serif font-bold mb-12 text-center
+}
+
+
+.link-section{
+  @apply flex flex-col md:flex-row md:gap-40 gap-8 mb-8 text-center md:text-left
+}
+
+.text-link{
+  @apply hover:underline cursor-pointer
+}
+
+.divider{
+  @apply w-full h-px bg-gray-300 opacity-20 mb-4
+}
+
+.socials-and-footer-note{
+  @apply flex flex-col md:flex-row md:justify-between items-center w-full gap-4 text-center md:text-left
+}
+
+.contact-info{
+  @apply flex flex-col md:flex-row md:justify-start gap-2 md:gap-8 mb-4 text-center md:text-left
+}
+
