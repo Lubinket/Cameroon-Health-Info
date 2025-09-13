@@ -1,0 +1,61 @@
+.background{
+
+  @apply relative flex flex-col items-center justify-center bg-gradient-to-r from-[#57B9FF] to-[#90D5FF] overflow-hidden h-[500px] md:h-[470px] px-4 md:px-20
+}
+
+.circle-1{
+  @apply absolute bg-white rounded-full top-10 left-5 sm:left-20 w-20 sm:w-32 h-20 sm:h-32 opacity-20
+}
+
+.circle-2{
+  @apply absolute bg-white rounded-full top-1/2 right-5 sm:right-10 w-32 sm:w-48 h-32 sm:h-48 opacity-10
+}
+
+.circle-3{
+  @apply absolute bg-white rounded-full bottom-20 left-1/4 sm:left-1/3 w-16 sm:w-24 h-16 sm:h-24 opacity-15
+}
+
+.ring-1{
+  @apply absolute top-20 left-5 sm:left-10 w-52 sm:w-72 h-52 sm:h-72 bg-white opacity-10 rounded-[50%_50%_50%_50%_/_50%_50%_50%_50%]
+}
+
+
+.ring-2{
+  @apply absolute border-white rounded-full opacity-10 top-1 bottom-10 right-20 sm:right-80 w-20 sm:w-32 h-20 sm:h-32 border-4
+}
+
+.ring-3{
+  @apply absolute border-white rounded-full opacity-10 top-20 bottom-10 right-40 sm:right-[600px] w-40 sm:w-[250px] h-40 sm:h-[250px] border-8
+}
+
+.main_text{
+  @apply text-4xl sm:text-7xl font-serif font-bold text-black text-center -mt-20 sm:-mt-[100px] mb-5 animate-fade-up
+}
+
+.smaller_text{
+  @apply mt-0 text-base sm:text-xl max-w-full sm:max-w-4xl text-center mb-10 text-black
+}
+
+.button-1{
+  @apply  bg-[#57B9FF] flex items-center justify-center px-6 py-3 border rounded-2xl hover:bg-[#77B1D4] w-48 h-10
+}
+
+.button-2{
+  @apply flex items-center justify-center gap-2 border w-48 rounded-2xl h-10 hover:bg-[#77B1D4]
+}
+
+
+.ring{
+        
+  @apply absolute border-white rounded-full opacity-10
+}
+
+.heading{
+  @apply text-7xl   font-serif -mt-[100px] text-black font-bold mb-5 animate-fade-up
+}
+
+.buttons{
+  @apply flex items-center justify-center gap-2 border  w-48  rounded-2xl h-10 hover:bg-[#77B1D4]
+} 
+
+
